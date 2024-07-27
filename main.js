@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             
 
             // Construct the API URL inside the event listener
-            var apiUrl = `http://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=astro&output=xml`;
+           var apiUrl = `https://www.7timer.info/bin/api.pl?lon=${longitude}&lat=${latitude}&product=astro&output=xml`;
 
             // Make the API call
             fetch(apiUrl)
